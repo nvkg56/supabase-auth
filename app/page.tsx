@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Home() {
   const setNewView = async () => {
     console.log("SEt new view");
@@ -9,7 +7,7 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      hello
+      Hello World
     </main>
   );
 }
